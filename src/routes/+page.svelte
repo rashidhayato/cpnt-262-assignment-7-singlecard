@@ -1,10 +1,10 @@
 <script>
-  import { player } from "/src/lib/data.js";
+  import { player1 } from "/src/lib/data.js";
 </script>
 
 <main>
   <section>
-    {#each player as player} <article class="card">
+    {#each player1 as player} <article class="card">
 <img src="/{player.images}" alt="player images">
 <a href={player.url} target="_blank">
 
